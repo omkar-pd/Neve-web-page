@@ -6,11 +6,11 @@ bars.addEventListener("click", function () {
   nav_list.classList.toggle("show");
 
   if (nav_list.classList.contains("show")) {
-    bars.src = "/assets/x-lg.svg";
+    bars.src = "assets/x-lg.svg";
     document.body.style.overflow = "hidden";
     nav_list.style.overflow = "scroll";
   } else {
-    bars.src = "/assets/bars-solid.svg";
+    bars.src = "assets/bars-solid.svg";
     document.body.style.overflow = "scroll";
     nav_list.style.overflow = "hidden";
   }
